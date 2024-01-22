@@ -3,7 +3,7 @@ import Home from '../Pages/Home/Home';
 
 const RootLayout = () => {
     return (
-        <div className='max-w-[1440px] border border-purple-700'>
+        <div className='max-w-[1440px]'>
           <Home></Home>
         </div>
     );

@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components{
+    .btn-primary{
+        @apply py-[9px] px-4 rounded-lg border-[1px] border-[#E0E0E0] bg-[#FFF] inline-flex justify-center items-center gap-1
+    }
+
+    .base-component{
+        @apply py-[20px] pl-[20px] pr-[25px] rounded-[10px] border-[1px] border-[#DFE1E1] bg-[#FFF] inline-flex justify-center items-center gap-4
+    }
+    .sub-component{
+        @apply py-[6px] px-3 inline-flex justify-center items-center gap-1 rounded-md border-[1px] border-[#E0E0E0]
+    }
+    .text-primary{
+        @apply text-[#212524] text-sm font-semibold leading-[22px] text-center
+    }
+
+    .line{
+        @apply w-[1px] h-5 border-[1px] border-[#BBBBBB]
+    }
+}
